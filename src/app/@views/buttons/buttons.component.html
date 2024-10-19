@@ -1,0 +1,19 @@
+<div *ngIf="cancelar">
+  <button
+    class="cancela"
+    [ngStyle]="{ width: width || '100px', height: height || '40px' }"
+    [disabled]="disabled"
+  >
+    {{ mensaje }}
+  </button>
+</div>
+
+<ng-container *ngIf="confirmed">
+  <button
+    class="confirma"
+    [ngStyle]="{ width: width || '100px', height: height || '40px' }"  
+    [disabled]="disabled"
+  >
+    {{mensaje | translate}}
+  </button>
+</ng-container>

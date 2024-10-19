@@ -1,0 +1,23 @@
+.cancela{
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+:disabled{
+    cursor: not-allowed;
+    background-color: gray;
+    color: white;
+}
+
+.confirma {
+    background-color: rgb(116, 231, 116); 
+    border: 1px solid rgb(34, 139, 34); 
+    color: white;
+    border-radius: 50px;
+    font-size: 10px;
+    cursor: pointer;
+}
